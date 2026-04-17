@@ -83,7 +83,7 @@ if 'last_face_score' not in st.session_state:
     st.session_state.last_face_score = 0.0
 
 # Gemini API key
-GEMINI_API_KEY = "AIzaSyDWlcoaXw4337fzmUlSFjfP8YuR0mTcPHE"
+GEMINI_API_KEY = "type you own api key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ────────────────────────────────────────────────
